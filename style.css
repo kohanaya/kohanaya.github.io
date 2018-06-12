@@ -1,0 +1,91 @@
+/* General setup */
+
+body {
+    /*background-color: rgb(56, 99, 160);*/
+
+    background-color: #006c9e;
+    background-image: url('img/asfalt-dark.png');
+    background-repeat: repeat;
+}
+
+h2 {
+    font-family: 'Bitter', serif;
+    color: white;
+    margin-left: 15px;
+    text-indent: 15px;
+}
+
+p {
+    font-family: 'Sunflower', sans-serif;
+    color: white;
+    text-align: left;
+    text-indent: 15px;
+}
+
+a.button:hover {
+    color: white;
+    background: green
+}
+
+a.button:active {
+    color: white;
+    background: limegreen
+}
+
+a.button {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: #1c8f3d 0 1px 0;
+    padding: 1em 1.5em;
+    outline: none;
+    border-style: solid none;
+    border-color: rgb(35, 160, 110);
+    border-radius: 10px;
+    background-color: rgb(35, 160, 110);
+    transition: 0.2s;
+}
+
+/* HOME PAGE */
+
+.home div.picture {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.home div.link {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.home a.button {
+    width: 160px;
+}
+
+/* PEOPLE PAGE */
+
+.people .first,
+.people .second,
+.people .third,
+.people .forth {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.people img.pict {
+    float: left;
+    border: white 2px solid;
+    border-radius: 20px;
+    box-shadow: 7px 7px 20px #8e8585;
+}
+
+
+
+
+
+
+
+
+
